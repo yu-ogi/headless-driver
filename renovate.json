@@ -18,6 +18,25 @@
   "automerge": true,
   "packageRules": [
     {
+      "matchPackageNames": ["aev1"],
+      "schedule": "at any time",
+      "groupName": "engine-files@1",
+      "groupSlug": "engine-files-v1",
+      "allowedVersions": "<2.0"
+    },
+    {
+      "matchPackageNames": ["aev2"],
+      "schedule": "at any time",
+      "groupName": "engine-files@2",
+      "allowedVersions": "<3.0"
+    },
+    {
+      "matchPackageNames": ["aev3"],
+      "schedule": "at any time",
+      "groupName": "engine-files@3",
+      "allowedVersions": "<4.0"
+    },
+    {
       "matchPackagePatterns": ["^@akashic/"],
       "schedule": "at any time",
       "groupName": "akashic packages",
