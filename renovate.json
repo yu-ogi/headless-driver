@@ -19,23 +19,14 @@
   "packageRules": [
     {
       "matchPackageNames": ["aev1"],
-      "schedule": "at any time",
-      "groupName": "engine-files@1",
-      "groupSlug": "engine-files-v1",
       "allowedVersions": "<2.0"
     },
     {
       "matchPackageNames": ["aev2"],
-      "schedule": "at any time",
-      "groupName": "engine-files@2",
-      "groupSlug": "engine-files-v2",
       "allowedVersions": "<3.0"
     },
     {
       "matchPackageNames": ["aev3"],
-      "schedule": "at any time",
-      "groupName": "engine-files@3",
-      "groupSlug": "engine-files-v3",
       "allowedVersions": "<4.0"
     },
     {
